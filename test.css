@@ -1,3 +1,7 @@
+* {
+  text-align: center;
+}
+
 body {
   margin: 40px;
   background: powderblue;
@@ -22,6 +26,7 @@ body {
   background-color: #FFFFFF;
   border-color: #000000;
   font-size: 150%;
+  border: 1px solid black;
 }
 
 .a{
@@ -48,4 +53,8 @@ position:relative;
 .f{
 grid-area: f;
 
+}
+
+.block {
+  border-color: green;
 }
