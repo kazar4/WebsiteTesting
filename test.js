@@ -13,7 +13,7 @@ function move() {
   box.style.right = posX + "px";
   box.style.top = posY + "px";
   posX += 3;
-  posY += 3;
+  posY += 5;
   }
 
 /*
