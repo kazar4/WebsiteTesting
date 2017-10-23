@@ -1,16 +1,19 @@
-
+var box = document.getElementById("block");
+//var holder = document.getElementsByClassName("box e");
+//var e =  holder[0];
 
 var posX = 0;
 var posY = 0;
 
-var box = document.getElementById("block");
-var holder = document.getElementsByClassName("box e");
 
-//var t = setInterval(move, 100);
+var t = setInterval(move, 100);
 
 function move() {
-  box.style.right = posX + "px";
-  box.style.top = posY + "px";
-  posX += 3;
-  posY += 10;
+
+if (posX < 50) {
+    posX = posX + 3;
+    posY = posY + 10;
+    box.style.right = posX + "px";
+    box.style.top = posY + "px";
+  }
 }
