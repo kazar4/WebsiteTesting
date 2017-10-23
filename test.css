@@ -48,27 +48,3 @@ position:relative;
 grid-area: f;
 
 }
-
-#lmao {
-  height: 300px;
-  width: 300px;
-  border: 5px solid black;
-}
-
-#pkmn {
-color: blue;
-}
-
-#turn:hover {
-  box-shadow: 0 0 5px 10px purple;
-}
-
-audio:hover {
-  box-shadow: 0 0 10px 2px yellow;
-}
-
-#block {
-  color: red;
-  border: 25px solid green;
-  position: absolute;
-}
