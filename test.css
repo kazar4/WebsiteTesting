@@ -48,6 +48,8 @@ grid-area: d;
 .e{
 grid-area: e;
 position:relative;
+height: 300px;
+width: inherit;
 }
 
 .f{
@@ -55,6 +57,8 @@ grid-area: f;
 
 }
 
-.block {
-  border: 10x red;
+#block {
+  height: 25px;
+  width: 25px;
+  border: 5px solid green;
 }

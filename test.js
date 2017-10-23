@@ -4,7 +4,7 @@ var posX = 0;
 var posY = 0;
 
 var box = document.getElementById("block");
-var holder = document.getElementsByClassName("e");
+var holder = document.getElementsByClassName("box e");
 
 //var t = setInterval(move, 100);
 
