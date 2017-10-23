@@ -5,21 +5,22 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
   background-color: #fff;
   color: #444;
   grid-template-areas:
-  "a a a"
-  "d c e"
-  "b f e";
+  "a a"
+  "b c"
+  "d d"
+  "e e"
+  "f f";
+
 }
 
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
+  background-color: #FFFFFF;
+  border-color: #000000;
   font-size: 150%;
 }
 
